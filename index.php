@@ -11,14 +11,8 @@
     /*realizar una consulta, pedir los datos*/
     $consulta = "SELECT * FROM usuarios";
     $resultado = mysqli_query($conexion, $consulta) or die("No ha funcionado la consulta");
-
-
-
-
-
-    
+   
 ?>
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -104,9 +98,27 @@
     <div class="fila">
         <div class="col-100 flex-colum-center">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos, adipisci.</p>
-            <?php
-    echo "<h1>Hola Mundo</h1>";
-?>
+            <article>
+                <?php
+                echo "<h1>Mas Información</h1>";
+                ?>
+            </article>
+            <article>
+            <u>
+                <?php
+                // Si le pasamos los resultados de la bd y le decimos que su edad es mayor a 40 lo pinta de rojo sino no
+                    while($columna = mysqli_fetch_array($resultado)){
+                        if($columna["edad"] > 40) {
+                            echo "<li id='mayor'>";
+                        }else {
+                            echo "<li class='menor'>";
+                        }
+                        echo $columna["nombre"]." - ".$columna["edad"];
+                        echo "</li>";
+                    }
+                ?>
+            </u>
+            </article>
             <form class="contacto">
                 <div class="fila">
                     <input class="usuario" type="text" placeholder="Nombre y Apellido">
