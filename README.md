@@ -15,9 +15,6 @@ Para usar este repositorio, simplemente clona el repositorio en tu computadora l
 
 `git clone https://github.com/SDeveloperZ/InmoRepo.git`
 
-This site was built using [GitHub Pages](https://pages.github.com/).
-
-
 
 
 Luego, puedes abrir los archivos HTML en tu navegador para ver el sitio web o utilizarlos como punto de partida para tu propio proyecto.
