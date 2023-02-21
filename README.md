@@ -13,3 +13,21 @@ InmoRepo es un repositorio de ejemplo para un sitio web de ventas inmobiliarias.
 
 Para usar este repositorio, simplemente clona el repositorio en tu computadora local:
 
+git clone https://github.com/SDeveloperZ/InmoRepo.git
+
+
+Luego, puedes abrir los archivos HTML en tu navegador para ver el sitio web o utilizarlos como punto de partida para tu propio proyecto.
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Si deseas mejorar el sitio web o agregar nuevas características, sigue estos pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una nueva branch para tu contribución.
+3. Realiza tus cambios y haz commit a tus modificaciones.
+4. Envía un pull request desde tu branch a la rama `master` del repositorio principal.
+
+## Licencia
+
+Este repositorio se distribuye bajo la licencia MIT. Siéntete libre de usar el código como desees en tus proyectos personales o comerciales. Si deseas contribuir al repositorio, asegúrate de que tus contribuciones también se distribuyan bajo la licencia MIT.
+
