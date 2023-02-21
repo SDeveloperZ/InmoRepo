@@ -13,7 +13,7 @@ InmoRepo es un repositorio de ejemplo para un sitio web de ventas inmobiliarias.
 
 Para usar este repositorio, simplemente clona el repositorio en tu computadora local:
 
-git clone https://github.com/SDeveloperZ/InmoRepo.git
+`git clone https://github.com/SDeveloperZ/InmoRepo.git`
 
 
 Luego, puedes abrir los archivos HTML en tu navegador para ver el sitio web o utilizarlos como punto de partida para tu propio proyecto.
