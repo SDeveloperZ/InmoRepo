@@ -15,6 +15,9 @@ Para usar este repositorio, simplemente clona el repositorio en tu computadora l
 
 `git clone https://github.com/SDeveloperZ/InmoRepo.git`
 
+The background color should be `#ffffff` for light mode and `#0d1117` for dark mode.
+
+
 
 Luego, puedes abrir los archivos HTML en tu navegador para ver el sitio web o utilizarlos como punto de partida para tu propio proyecto.
 
