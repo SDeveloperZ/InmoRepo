@@ -690,7 +690,7 @@ footer .copyright {
 }
 
 /* PHP */
-#mayor {
+.mayor {
   font-weight: bold;
-  color: red;
+  color: rgb(255, 0, 0);
 }

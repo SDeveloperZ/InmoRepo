@@ -19,7 +19,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type=text/css href="css/styles.css">
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/main.js"></script>
     
@@ -62,6 +62,7 @@
         </nav>
         <p class="copyright">&copy; DIFATEC</p>
     </div>
+    
     <div class="fila primera">
         <span  id="inicio-texto">&nbsp;</span>
         <div class="col-66">
@@ -103,22 +104,7 @@
                 echo "<h1>Mas Información</h1>";
                 ?>
             </article>
-            <article>
-            <u>
-                <?php
-                // Si le pasamos los resultados de la bd y le decimos que su edad es mayor a 40 lo pinta de rojo sino no
-                    while($columna = mysqli_fetch_array($resultado)){
-                        if($columna["edad"] > 40) {
-                            echo "<li id='mayor'>";
-                        }else {
-                            echo "<li class='menor'>";
-                        }
-                        echo $columna["nombre"]." - ".$columna["edad"];
-                        echo "</li>";
-                    }
-                ?>
-            </u>
-            </article>
+            
             <form class="contacto">
                 <div class="fila">
                     <input class="usuario" type="text" placeholder="Nombre y Apellido">
@@ -138,6 +124,22 @@
             </form>
         </div>
     </div>
+    <article>
+            <u>
+                <?php
+                // Si le pasamos los resultados de la bd y le decimos que su edad es mayor a 40 lo pinta de rojo sino no
+                    while($columna = mysqli_fetch_array($resultado)){
+                        if($columna["edad"] > 40) {
+                            echo "<li class='mayor'>";
+                        }else {
+                            echo "<li class='menor'>";
+                        }
+                        echo $columna["nombre"]." - ".$columna["edad"];
+                        echo "</li>";
+                    }
+                ?>
+            </u>
+    </article>
     <footer class="fila">
         <div class="col-33">
             <p>Imperial Real State</p>
